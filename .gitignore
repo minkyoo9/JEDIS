@@ -9,7 +9,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # model and data dir
-BEST_model
+BEST_model/ratio2_max5
 data
 ~                                                                                                                                                                                    
 ~                                                                                                                                                                                    
