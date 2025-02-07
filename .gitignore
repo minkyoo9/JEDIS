@@ -1,0 +1,13 @@
+# cache
+\~/
+
+# python cache
+*.pyc
+__pycache__/
+
+# Ipython cache
+.ipynb_checkpoints/
+
+# model and data dir
+BEST_model
+data
