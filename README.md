@@ -1,5 +1,5 @@
 # JEDIS
-Implementation of **[Covering Cracks in Content Moderation: Delexicalized Distant Supervision for Illicit Drug Jargon Detection]**, *KDD 2025*
+Implementation of **Covering Cracks in Content Moderation: Delexicalized Distant Supervision for Illicit Drug Jargon Detection**, *KDD 2025*
 
 ## Overview
 
@@ -50,10 +50,11 @@ python Model_train.py -t False
 ## Model Training
 ### 1. Dataset Preparation
 To prepare the dataset for training, follow these steps:
-1. Use **`Data_processing.ipynb`** to generate the training dataset.
+1. Download the raw data and pretrained model from [this link](https://github.com/minkyoo9/JEDIS/releases/download/materials/data.tar.gz).
+2. Use **`Data_processing.ipynb`** to generate the training dataset.
    - This notebook will create datasets in the format:  
      **`Emb_Dataset_ratio{ratio}_max{maxn}_{random_seed}`**.
-2. Ensure that the dataset is properly processed and saved for use in training.
+3. Ensure that the dataset is properly processed and saved for use in training.
 
 ### 2. Train the Model
 Once the dataset is ready, run the training script using the following command:
