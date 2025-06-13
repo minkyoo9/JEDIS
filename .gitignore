@@ -11,3 +11,5 @@ __pycache__/
 # model and data dir
 BEST_model
 data
+
+JEDIS_dist_eval_sampling.ipynb

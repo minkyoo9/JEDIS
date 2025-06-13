@@ -243,7 +243,8 @@ model_best.load_state_dict(torch.load(model_path))
 model_best.eval()
 
 # Load tokenized dataset
-tokenized_dataset_eval = load_from_disk(os.path.join(data_dir, 'Emb_Dataset_eval'))
+# tokenized_dataset_eval = load_from_disk(os.path.join(data_dir, 'Emb_Dataset_eval'))
+tokenized_dataset_eval = load_from_disk(os.path.join(data_dir, 'Sampled_Eval'))
 
 # Define a function to make the process more concise
 def run_evaluation(metric_fn):
